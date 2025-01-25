@@ -26,7 +26,6 @@ def extract_text_from_pdf(pdf_path):
             for page in pdf_reader.pages:
                 text = page.extract_text()
                 if text:
-                    # Assuming each unit is separated by a specific delimiter or pattern
                     # Here, we split by double newlines as an example
                     units.extend(text.split("\n\n"))  # Adjust this based on your PDF structure
         print("PDF text extracted successfully.")
