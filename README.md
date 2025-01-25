@@ -11,4 +11,4 @@
 
 ## Project Overview
 
->Brainly Bot will cover various subjects, including mathematics, science, history, and language arts, helping students with homework, concept understanding, and exam preparation. For teachers, it will assist in lesson planning, quiz generation, and classroom resource recommendations.
+>Brainly Bot will cover various subjects, including mathematics, science, history, and language arts, helping students with homework, concept understanding, and exam preparation. For teachers, it will assist in lesson planning, quiz generation, and classroom resource recommendations.# Brainy-Bot
