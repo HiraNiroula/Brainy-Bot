@@ -35,8 +35,7 @@ const Help = () => {
                     STEP 1
                   </h2>
                   <p className="leading-relaxed">
-                    VHS cornhole pop-up, try-hard 8-bit iceland helvetica.
-                    Kinfolk bespoke try-hard cliche palo santo offal.
+                  Implement inclusive learning methods for diverse needs. Provide assistive technologies for students with disabilities. 
                   </p>
                 </div>
               </div>
@@ -62,8 +61,7 @@ const Help = () => {
                     STEP 2
                   </h2>
                   <p className="leading-relaxed">
-                    Vice migas literally kitsch +1 pok pok. Truffaut hot chicken
-                    slow-carb health goth, vape typewriter.
+                  Ensure digital accessibility with screen readers and captions. Design online platforms to support all learning styles.
                   </p>
                 </div>
               </div>
@@ -90,8 +88,7 @@ const Help = () => {
                     STEP 3
                   </h2>
                   <p className="leading-relaxed">
-                    Coloring book nar whal glossier master cleanse umami. Salvia
-                    +1 master cleanse blog taiyaki.
+                  Offer financial support like scholarships and grants. Make educational materials affordable for everyone.
                   </p>
                 </div>
               </div>
@@ -118,8 +115,7 @@ const Help = () => {
                     STEP 4
                   </h2>
                   <p className="leading-relaxed">
-                    VHS cornhole pop-up, try-hard 8-bit iceland helvetica.
-                    Kinfolk bespoke try-hard cliche palo santo offal.
+                  Introduce flexible learning options such as remote and hybrid classes. Allow students to learn at their own pace and convenience.
                   </p>
                 </div>
               </div>
@@ -143,8 +139,7 @@ const Help = () => {
                     FINISH
                   </h2>
                   <p className="leading-relaxed">
-                    Pitchfork ugh tattooed scenester echo park gastropub
-                    whatever cold-pressed retro.
+                  Advocate for policies promoting equal education opportunities. Raise awareness about the importance of accessible education.
                   </p>
                 </div>
               </div>
@@ -187,11 +182,10 @@ const Help = () => {
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
-                  Shooting Stars
+                Inclusive Education
                 </h2>
                 <p className="leading-relaxed">
-                  VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                  bespoke try-hard cliche palo santo offal.
+                Provide learning materials in multiple formats (audio, visual, Braille). Train teachers to address diverse learning needs.
                 </p>
               </div>
             </div>
@@ -219,11 +213,10 @@ const Help = () => {
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
-                  The Catalyzer
+                Digital Accessibility
                 </h2>
                 <p className="leading-relaxed">
-                  VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                  bespoke try-hard cliche palo santo offal.
+                Ensure e-learning platforms support assistive technologies. Offer captions, screen readers, and adaptable interfaces.
                 </p>
               </div>
             </div>
@@ -252,11 +245,10 @@ const Help = () => {
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
-                  The 400 Blows
+                Financial Support
                 </h2>
                 <p className="leading-relaxed">
-                  VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                  bespoke try-hard cliche palo santo offal.
+                Introduce scholarships and affordable learning programs. Provide financial aid for underprivileged students.
                 </p>
               </div>
             </div>
@@ -285,11 +277,10 @@ const Help = () => {
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
-                  Neptune
+                Flexible Learning
                 </h2>
                 <p className="leading-relaxed">
-                  VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                  bespoke try-hard cliche palo santo offal.
+                Offer remote and hybrid learning options. Enable self-paced learning to accommodate different lifestyles.
                 </p>
               </div>
             </div>
