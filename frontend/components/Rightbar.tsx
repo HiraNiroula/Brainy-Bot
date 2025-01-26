@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React, { useState, useEffect } from "react";
 
 const Rightbar = () => {
@@ -47,7 +47,11 @@ const Rightbar = () => {
       {/* head */}
       <div className="flex justify-between w-full text-lg">
         <div className="flex items-center justify-center font-semibold text-xl gap-2">
-          <img src="/brainy.png" className="w-7 h-7 rounded-full" alt="brainy" />
+          <img
+            src="/brainy.png"
+            className="w-7 h-7 rounded-full"
+            alt="brainy"
+          />
           <h1>Brainy Bot</h1>
         </div>
         <div className="flex gap-2 items-center justify-center">
