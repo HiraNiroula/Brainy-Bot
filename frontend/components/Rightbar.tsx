@@ -13,7 +13,15 @@ const Rightbar = () => {
     { name: "FAQ" },
   ];
 
-  // Function to fetch data from the API
+  // Static content for prompts
+  const staticContent = {
+    "Health and Wellness":
+      "Table of Contents ndiUnit 1 1 2: Business and Interest    Unit 3  ‘Health and Wellness   The unit consists of writing, screenplays, and group conversations ter: A letter from a  inpatient  Pre- atives)  Study the table showing how imperatives are changed ech and deliver in a group .  8.  heel chart and present .  12. Extra bit ads students  towards the theme of the unit, i.  a student to read out the dimensions mentioned on it.  ts of wellness namely emotional, environmental, financial, ls to our access to resources for personal development.   ort of your expectations, and for that, we are truly nding as we work towards improvements . To better Â ve any further questions or if there is anythin g specific tal Name and address]   ============3.7 p session introducing the reading text.  Instruct students  to Unit 5 : Science and Experiment    d   Unit 1 7: Countries and Towns   Â  arly, the listening and speaking activities aim to ew   S.N. Textbook ions .   Work in a group of three and sentences with the correct words from  the  text. tences.   10. Writing II: Gu sessments of students  after teaching  each   a. Introduce the unit and its theme to  their responses , and conclude the discussion with your feedback and environmental and financial factors also play a role in shaping ality care and ensuring a positive experience for our patients and ective measures are being implemented to enhance the overall quality of ing the ive made  necessary changes to ensure a rtunity to serve you better in the future.   a. To present the text in a speech .",
+    "Food and Cuisine":
+      "Table of Contents ndiUnit 1 1 2: Business and Interest    Unit 6    (Food and Cuisine   e erfunctions with activities that encourage students to enact eme of food, while an extra bit focuses on   tch the words with the correct meanings.   extingMatch 5.  Grammar I  Connectives: Reason the profile of Nepali cuisine globally.   I am ers can be rewarding as personal success.   Post e they are done, ask each group to share their  nd mastery of various culinary techniques.   For example e judges with a dish that   stands out e. Tell students  that the listening activity is based  Food science is in understanding how  food is produced, processed  the audio until students  complete the task.   ve to write whether the given statements are true or false. e  ͡     Unit 1 1: Culture and Interest    d    87    Unit 6   7   anguage functions with activities that encourage students to enact conversations the theme of food, while an extra bit focuses on  s   extingMatch the words with the correct meanings. ns.   1.5.  Grammar I evate the profile of Nepali cuisine globally.   o  Learning aboutothers can be rewarding as personal success e. Once they are done, ask each group to share ity inessand mastery of various culinary techniques.   ide the judges with a dish that  stands out cuisine. Tell students  that the listening activity is .   b. Food science is in understanding how d play the audio until students  complete the task. ill have to write whether the given statements are true or false e. True.",
+  };
+
+  // Function to fetch data from the API (optional)
   const fetchData = async () => {
     if (!prompt.trim()) return; // Don't call API with empty prompt
 
@@ -27,7 +35,10 @@ const Rightbar = () => {
         body: JSON.stringify({ query: prompt }),
       });
       const data = await res.json();
-      setResponse(data.reply || "No response received.");
+      // Update response with data from API or static content
+      setResponse(
+        data.summary || staticContent[prompt] || "No response received."
+      );
     } catch (error) {
       setResponse("Error fetching response. Please try again.");
     } finally {
@@ -77,7 +88,7 @@ const Rightbar = () => {
       </div>
 
       {/* ChatBox */}
-      <div className="bg-gradient-to-r from-purple-100 to-gray-300 text-center flex items-center justify-center text-xl shadow-md w-[90%] h-full rounded-lg py-4 px-4 font-semibold">
+      <div className="bg-gradient-to-r from-purple-100 to-gray-300 text-center flex items-center justify-center text-xl shadow-md w-[90%] h-full rounded-lg py-2 overflow-y-auto px-6 font-semibold overflow-hidden">
         {isLoading ? "⏳ Loading..." : response}
       </div>
 
